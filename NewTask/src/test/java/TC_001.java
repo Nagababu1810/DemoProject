@@ -16,6 +16,8 @@ public class TC_001 extends BaseTest {
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("mddnagababu1810");
 		
+		driver.manage().deleteCookieNamed("string");
+		
 		//driver.findElement(By.xpath("//span[text()='Next']")).click();
 		//driver.findElement(By.linkText("Next")).click();
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
