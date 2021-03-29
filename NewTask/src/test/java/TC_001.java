@@ -21,6 +21,7 @@ public class TC_001 extends BaseTest {
 		//driver.findElement(By.xpath("//span[text()='Next']")).click();
 		//driver.findElement(By.linkText("Next")).click();
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
+	
 	}
 
 }
